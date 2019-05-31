@@ -10,5 +10,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface AdminService {
 
     @RequestMapping(value = "hi", method = RequestMethod.GET)
-    public String sayHi(@RequestParam(value = "message") String message);
+    public String sayHi(@RequestParam(value = "name") String message);
 }
